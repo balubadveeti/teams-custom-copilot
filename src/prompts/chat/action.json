@@ -1,0 +1,23 @@
+[
+    {
+        "name": "selectSkill",
+        "description": "Select the skills for retrieving the results",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "skillName": {
+                    "type": "string",
+                    "description": "The name of the skill"
+                },
+                "skillDescription": {
+                    "type": "string",
+                    "description": "The description of the skill"
+                }
+            },
+            "required": [
+                "skillName",
+                "skillDescription"
+            ]
+        }
+    }
+]
